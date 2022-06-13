@@ -1,0 +1,88 @@
+/* ОБЩАЯ СТРУКТУРА */
+body{
+    background-color: rgb(13, 13, 13);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    word-spacing: 3px;
+}
+h2{
+    color: rgb(255, 255, 255);
+}
+a{
+    position: absolute;
+    bottom: 150px;
+    right: 860px;
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+ /* КЛАССЫ */
+.animepicture{
+    width: 385px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 15px 1px ;
+    color: rgba(211, 13, 13, 0.856);
+}
+.centre1{
+    text-align: center;
+    word-spacing: 5px;
+}
+.centre2{
+    margin-left: 20px;
+    word-spacing: 2px;
+}
+.centre3{
+    position: absolute;
+    bottom: 175px;
+    right: 410px;
+    margin-right: 20px;
+    word-spacing: 2px;
+}
+.divi1{
+   padding-left: 10px;
+   padding-top: 1px;
+   padding-bottom: 1px;
+   margin-bottom: 20px;
+   font-size: 17px;
+   color: rgb(255, 255, 255);
+   background-color: rgba(146, 34, 34, 0.658);
+   border-radius: 10px;
+}
+.list li{
+    margin-bottom: 8px;
+}
+.list2 li{
+    margin-bottom: 10px;
+}
+.box{
+    position: absolute;
+    top: 179px;
+    right: 300px;
+    height: 80px;
+    color: white;
+    padding: 0px;
+}
+.divi2{
+    padding-left: 10px;
+    margin-bottom: 25px;
+}
+.divi3{
+    padding-left: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-bottom: 20px;
+    background-color: rgba(146, 34, 34, 0.658);
+    border-radius: 10px;
+    color: white;
+}
+.table td:nth-child(1),.table td:nth-child(2){
+ padding-right: 30px;
+}
